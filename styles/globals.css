@@ -1,0 +1,36 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  :root {
+  }
+  @font-face {
+    font-family: "fa-regular";
+    src: url("/fonts/font-awesome/FA5-Pro-Regular.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "fa-solid";
+    src: url("/fonts/font-awesome/FA5-Pro-Solid.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "fa-light";
+    src: url("/fonts/font-awesome/FA5-Pro-Light.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "fa-brands";
+    src: url("/fonts/font-awesome/FA5-Brands.otf") format("opentype");
+  }
+
+  * {
+  }
+
+  ::selection {
+  }
+
+  body {
+  }
+}
