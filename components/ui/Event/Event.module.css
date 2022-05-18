@@ -1,0 +1,19 @@
+.event {
+  @apply grid bg-slate-200 min-h-[57px] py-2 relative overflow-hidden rounded;
+
+  & p {
+    @apply text-[10px] text-[#A8A8A8];
+  }
+
+  & .type {
+    @apply w-[5px] h-full absolute left-0 top-0;
+  }
+
+  & .wrap {
+    @apply ml-5;
+  }
+}
+
+.reversed {
+  @apply flex justify-center items-center gap-2;
+}

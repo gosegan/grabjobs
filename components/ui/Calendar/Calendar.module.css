@@ -1,0 +1,29 @@
+.calendar {
+  @apply p-8 bg-white mr-4 rounded-md;
+}
+
+.header {
+  @apply grid gap-12 items-center mb-8;
+  grid-template-columns: repeat(3, max-content) 1fr;
+}
+
+.day {
+  @apply px-6 py-3 border rounded-md transition-all max-h-min;
+  transition-duration: 300ms;
+
+  &:hover {
+    @apply bg-black text-white;
+  }
+}
+
+.arrows {
+  @apply flex gap-8;
+
+  & i {
+    @apply text-[50px] text-blue cursor-pointer;
+  }
+}
+
+.button {
+  @apply flex gap-6 px-4 py-2 border rounded-md max-w-fit ml-auto;
+}

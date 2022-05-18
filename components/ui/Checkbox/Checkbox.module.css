@@ -1,0 +1,28 @@
+.label {
+  @apply flex gap-2 text-sm items-center cursor-pointer;
+}
+
+.input[type='checkbox'] {
+  @apply h-[1px] w-[1px] overflow-hidden absolute whitespace-nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+}
+
+.checkbox {
+  @apply flex justify-center h-5 max-w-[20px] w-full bg-white border border-primary rounded-md mt-[1px];
+}
+
+.image {
+  border-radius: 0.32rem;
+  & path {
+    transform: scale(0.75);
+  }
+}
+
+.icon {
+  @apply w-4 text-center;
+}
+
+.circle {
+  @apply h-3 w-3 rounded-full;
+}

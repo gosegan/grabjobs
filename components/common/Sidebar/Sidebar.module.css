@@ -1,0 +1,35 @@
+.sidebar {
+  @apply flex flex-col w-[68px] h-full absolute shadow-lg overflow-hidden pt-20 bg-white;
+  transition: width 0.8s;
+
+  &:hover {
+    @apply w-[170px];
+  }
+}
+
+.link {
+  @apply flex items-center py-3;
+  & i {
+    @apply text-gray text-h3;
+  }
+}
+
+.wrap {
+  @apply min-w-[68px] text-center;
+}
+
+.active,
+.link:hover {
+  @apply bg-rose-50 relative;
+
+  & i {
+    @apply text-red;
+  }
+}
+
+.active {
+  &:before {
+    content: '';
+    @apply w-1 h-full absolute bg-red left-0 top-0;
+  }
+}

@@ -1,0 +1,20 @@
+.filters {
+  @apply bg-white max-w-[265px] h-max py-5 px-8 rounded-md;
+}
+
+.button {
+  @apply flex gap-4 mb-10 justify-between items-center rounded-full shadow-md py-2 px-6;
+}
+
+.wrap {
+  @apply grid gap-2;
+}
+
+.collapse {
+  @apply flex gap-2;
+}
+
+.content {
+  @apply overflow-hidden grid gap-4;
+  transition: height 0.5s;
+}

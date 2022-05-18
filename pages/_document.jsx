@@ -11,6 +11,10 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta name="theme-color" content="#fff" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+            rel="stylesheet"
+          />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           {/* <script
             async

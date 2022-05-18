@@ -1,0 +1,11 @@
+.table {
+  @apply grid grid-cols-7 gap-1;
+}
+
+.card {
+  border: 1px;
+}
+
+.hint {
+  @apply text-xs my-1 pl-2 text-gray;
+}
